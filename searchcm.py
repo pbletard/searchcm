@@ -1,4 +1,4 @@
-mport sys
+import sys
 import signal
 import urllib3.exceptions
 
