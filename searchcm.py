@@ -70,6 +70,8 @@ def main(argv):
 
         if searched_value is not None:
             cm_searching(searched_value,verbose)
+        else:
+            print(f"\nERROR: Need at list a string value to search for...\nUsage: searchcm -s <value to search for> [-v]\n")
     else:
         print(f"\nERROR: Need at list a string value to search for...\nUsage: searchcm -s <value to search for> [-v]\n")
 
